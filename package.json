@@ -1,0 +1,20 @@
+{
+  "name": "faceauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "nodemon app.js"
+  },
+  "author": "Fernando Castro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "joi": "^14.1.0",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6"
+  }
+}
